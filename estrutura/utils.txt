@@ -1,0 +1,23 @@
+utils/
+A pasta utils guarda funções auxiliares do projeto.
+
+Essas funções não pertencem diretamente a uma classe principal, mas ajudam em tarefas usadas em diferentes partes do jogo.
+
+Exemplos:
+
+helpers.py
+collision.py
+Possíveis usos da pasta utils:
+
+verificar colisões;
+carregar imagens;
+carregar sons;
+centralizar textos na tela;
+formatar pontuação;
+calcular distância entre objetos;
+reutilizar funções comuns.
+Exemplo:
+
+def check_collision(object_a, object_b):
+    return object_a.rect.colliderect(object_b.rect)
+Separar funções auxiliares evita repetição de código e deixa os arquivos principais mais simples.

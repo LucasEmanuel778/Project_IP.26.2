@@ -1,0 +1,19 @@
+constants.py
+O arquivo constants.py guarda valores fixos usados em diferentes partes do projeto.
+
+Exemplos:
+
+SCREEN_WIDTH = 800
+SCREEN_HEIGHT = 600
+FPS = 60
+
+WINDOW_TITLE = "My Game"
+
+IMAGES_PATH = "assets/images"
+SOUNDS_PATH = "assets/sounds"
+MUSIC_PATH = "assets/music"
+Esse arquivo evita que números, textos e caminhos fiquem espalhados pelo código.
+
+Por exemplo, em vez de repetir 800, 600 ou "assets/images" em vários arquivos, esses valores ficam centralizados em um único lugar.
+
+Isso facilita alterações futuras. Caso o tamanho da tela precise mudar, basta alterar em constants.py.

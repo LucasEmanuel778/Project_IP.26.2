@@ -1,0 +1,12 @@
+.gitignore
+O arquivo .gitignore informa ao Git quais arquivos e pastas não devem ser enviados para o repositório.
+
+Exemplo:
+
+__pycache__/
+*.pyc
+.venv/
+.env
+Isso evita enviar arquivos automáticos do Python, ambientes virtuais e configurações locais.
+
+Arquivos como __pycache__, .venv e .env geralmente não devem ser versionados.

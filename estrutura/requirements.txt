@@ -1,0 +1,11 @@
+requirements.txt
+O arquivo requirements.txt lista as bibliotecas necessárias para executar o projeto.
+
+Exemplo:
+
+pygame
+Para instalar as dependências, use:
+
+pip install -r requirements.txt
+Esse arquivo facilita a configuração do projeto em outro computador, pois todas as bibliotecas necessárias ficam registradas em um único lugar.
+

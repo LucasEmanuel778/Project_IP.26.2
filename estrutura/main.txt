@@ -1,0 +1,26 @@
+main.py
+O arquivo main.py é o ponto de entrada do projeto.
+
+É por ele que o jogo começa a ser executado.
+
+Normalmente, esse arquivo contém:
+
+inicialização do jogo;
+criação da janela;
+configuração inicial;
+loop principal;
+leitura de eventos;
+atualização dos objetos;
+desenho dos elementos na tela;
+encerramento do jogo.
+Exemplo simples:
+
+def main():
+    print("Game started!")
+
+
+if __name__ == "__main__":
+    main()
+O main.py deve organizar o funcionamento geral do jogo, mas não deve concentrar toda a lógica do projeto.
+
+Quando o código cresce, classes, funções auxiliares e constantes devem ser separadas em seus respectivos arquivos.

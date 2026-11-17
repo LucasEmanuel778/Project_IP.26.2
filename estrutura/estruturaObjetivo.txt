@@ -1,0 +1,39 @@
+Python Game Template
+Este repositório apresenta uma estrutura simples e organizada para projetos de jogos desenvolvidos em Python.
+
+A organização separa os arquivos do projeto por responsabilidade, facilitando a leitura, manutenção e evolução do código. A estrutura também ajuda a evitar que todo o jogo fique concentrado em um único arquivo.
+
+Estrutura do Projeto
+python-game-template/
+│
+├── assets/
+│   ├── images/
+│   │   ├── player.png
+│   │   ├── enemy.png
+│   │   └── background.png
+│   │
+│   ├── sounds/
+│   │   ├── jump.wav
+│   │   └── collision.wav
+│   │
+│   └── music/
+│       └── theme.mp3
+│
+├── classes/
+│   ├── player.py
+│   ├── coin.py
+│   ├── text.py
+│   ├── enemy.py
+│   └── game_object.py
+│
+├── utils/
+│   ├── helpers.py
+│   └── collision.py
+│
+├── constants.py
+├── main.py
+├── requirements.txt
+├── .gitignore
+└── README.md
+
+https://github.com/safiragomes/Game_Template/blob/main/README.md
