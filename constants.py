@@ -1,0 +1,16 @@
+# constants.py
+LARGURA = 800
+ALTURA = 600
+FPS = 60
+TITULO = "Projeto IP - Nome do Jogo"
+
+# Cores (RGB)
+PRETO = (0, 0, 0)
+BRANCO = (255, 255, 255)
+CINZA = (40, 40, 40)
+
+# Estados do Jogo
+ESTADO_MENU = "MENU"
+ESTADO_JOGANDO = "JOGANDO"
+ESTADO_PAUSADO = "PAUSADO"
+ESTADO_GAME_OVER = "GAME_OVER"
