@@ -1,2 +1,2 @@
 # Project_IP.26.2
-A 2D game inspired by Sabrina Carpenter, featuring character movement and 3 unique collectibles. Developed as a college project.
+A 2D game inspired by Sabrina Carpenter, featuring character movement and 3 unique collectibles. Developed as a college project. This project will be based on "classicvania"-style games—for instance, the original 1986 *Castlevania*. The game will feature a combat system centered on defeating iconic enemies, such as integrals, limits, and derivatives. Standing against these fearsome creatures, which seek to invade the earthly realm, will be our heroine: Sabrina Carpenter.
