@@ -53,7 +53,7 @@ A 2D game inspired by Sabrina Carpenter, featuring character movement and 3 uniq
 ## Controles:
 - 'A': Andar para esquerda.
 - 'D': Andar para direita.
-...
+- ...
 
 
 ## Divisão de tarefas:
@@ -72,7 +72,7 @@ Renderização do mapa/cenário 2D, plano de fundo e eventuais obstáculos do am
 
 * **Mateus Soares Mendes:**<br>
 Estrutura do repositório GitHub (main, branches e .gitignore);<br>
-Loop principal do jogo (Game), máquina de estados (Menu, Jogando, Game Over) e controle de FPS;<br>
+Loop principal do jogo (Game), máquina de estados (Menu, Jogando, Game Over);<br>
 Revisão de Pull Requests (PRs) e integração das classes;<br>
 Gestão do GitHub e organização das pastas;<br>
 Construção do ReadMe.
@@ -85,7 +85,7 @@ Salvamento de recordes (High Score e Best Time).
 * **Vitor Gabriel Jose de Oliveira Belo:**<br>
 Classe Inimigo (movimentação, comportamento e colisões);<br>
 Classe AudioManager (música de fundo e efeitos sonoros ao coletar cada tipo de item);<br>
-Feedback visual de coleta (partículas, textos flutuantes de +1, transições);<br>
+Feedback visual de coleta (partículas, textos flutuantes de +1, transições).<br>
 
 * **João Pedro Cabral Bezerra Cavalcanti:**<br>
 Classe base abstrata/pai Coletavel (herança e polimorfismo);<br>
