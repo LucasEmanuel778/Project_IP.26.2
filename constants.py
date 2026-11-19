@@ -2,7 +2,7 @@
 LARGURA = 800
 ALTURA = 600
 FPS = 60
-TITULO = "Projeto IP - Nome do Jogo"
+TITULO = "Sabrina Doesn't Know How To Integrate"
 
 # Cores (RGB)
 PRETO = (0, 0, 0)

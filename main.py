@@ -5,6 +5,7 @@ from constants import (
     PRETO, BRANCO,
     ESTADO_MENU, ESTADO_JOGANDO, ESTADO_PAUSADO, ESTADO_GAME_OVER
 )
+from src.entities.player import Player
 
 
 class Game:
@@ -22,9 +23,9 @@ class Game:
 
     def inicializar_objetos(self):
         """Instancia ou reseta os objetos da partida."""
-        # self.player = Player(LARGURA // 2, ALTURA // 2)
-        # self.score_manager = ScoreManager()
-        # self.coletaveis = []
+        self.player = Player(LARGURA // 2, ALTURA // 2)
+         # self.score_manager = ScoreManager()
+         # self.coletaveis = []
         pass
 
     def processar_eventos(self):
@@ -47,15 +48,15 @@ class Game:
 
     def atualizar(self, dt):
         if self.estado == ESTADO_JOGANDO:
-            # teclas = pygame.key.get_pressed()
-            # self.player.update(teclas, dt)
+            teclas = pygame.key.get_pressed()
+            self.player.update(teclas, dt)
             pass
 
     def desenhar(self):
         self.tela.fill(PRETO)
 
         if self.estado == ESTADO_JOGANDO:
-            # self.player.draw(self.tela)
+            self.player.draw(self.tela)
             # self.score_manager.draw(self.tela)
             pass
         elif self.estado == ESTADO_PAUSADO:
