@@ -5,12 +5,12 @@
 A 2D game inspired by Sabrina Carpenter, featuring character movement and 3 unique collectibles. Developed as a college project. This project will be based on "classicvania"-style games—for instance, the original 1986 *Castlevania*. The game will feature a combat system centered on defeating iconic enemies, such as integrals, limits, and derivatives. Standing against these fearsome creatures, which seek to invade the earthly realm, will be our heroine: Sabrina Carpenter.
 
 ## Participantes do Projeto:
-- Lucas Emanuel Araújo Arruda <leaa2>
-- Brian Miguel da Silva Santos <bmss>
-- Mateus Soares Mendes <msm4>
-- Lucas Kauã Gomes <lkgs>
-- Vitor Gabriel Jose de Oliveira Belo <vgjob>
-- João Pedro Cabral Bezerra Cavalcanti <jpcbc>
+- Lucas Emanuel Araújo Arruda (leaa2);
+- Brian Miguel da Silva Santos (bmss);
+- Mateus Soares Mendes (msm4);
+- Lucas Kauã Gomes (lkgs);
+- Vitor Gabriel Jose de Oliveira Belo (vgjob);
+- João Pedro Cabral Bezerra Cavalcanti (jpcbc).
 
 ## Organização e Desenvolvimento de Jogo:
 
@@ -24,23 +24,32 @@ A 2D game inspired by Sabrina Carpenter, featuring character movement and 3 uniq
     print
 
 ## Estrutura do Projeto:
-- main.py: 
+- main.py:  
+
+- ...
 
 ## Ferramentas utilizadas:
 ### Bibliotecas
-
+- pygame;
+- time;
+- random;
+- ...
 
 ### Ferramentas
-
+- VSCode;
+- Discord;
+- YouTube;
+- GitHub;
+- ...
 
 ## Controles:
-Pressione a tecla <- para que o goleiro se desloque para esquerda
-Pressione a tecla -> para que o goleiro se desloque para direita
+    Pressione a tecla 'A' para que a Sabrina Carpenter se desloque para esquerda;
+    Pressione a tecla 'D' para que a Sabrina Carpenter se desloque para direita;
 
 ## Regras do Jogo:
 - O jogador inicia a partida com uma quantidade definida de vidas;
 - A partida se estende até que todas as vidas sejam esgotadas;
-
+- ...
 
 ## Divisão de tarefas:
 A definição dos principais elementos do jogo, como tema, lógica, regras, personagens e visual da interface, foi feita de maneira colaborativa. Todos os integrantes apresentaram sugestões durante as reuniões do grupo, e as decisões foram tomadas em consenso ao longo do desenvolvimento.
@@ -63,9 +72,9 @@ Detalhes técnicos:
     Construção do ReadMe.
 
 - Lucas Kauã Gomes:
-    Classe ScoreManager / Inventario para registrar a quantidade coletada de cada um dos 3+ tipos de objetos;
+    Classe ScoreManager / Inventario para registrar a quantidade coletada de cada um dos 3 tipos de objetos;
     Exibição em tempo real na tela (HUD com contadores individuais e ícones);
-    Salvamento de recordes (High Score em arquivo .txt ou .json).
+    Salvamento de recordes (High Score e Best Time).
 
 - Vitor Gabriel Jose de Oliveira Belo:
     Classe AudioManager (música de fundo e efeitos sonoros ao coletar cada tipo de item);
@@ -74,8 +83,8 @@ Detalhes técnicos:
 
 - João Pedro Cabral Bezerra Cavalcanti:
     Classe base abstrata/pai Coletavel (herança e polimorfismo);
-    Implementação de pelo menos 3 subclasses distintas de objetos coletáveis (com comportamentos, pontuações ou efeitos diferentes);
-        Lógica de spawn (geração aleatória ou programada na tela).
+    Implementação de 3 subclasses distintas de objetos coletáveis (com comportamentos, pontuações ou efeitos diferentes).
+    Lógica de spawn aleatório dos coletáveis.
 
 
 ## Conceitos aprendidos durante a disciplina utilizados no jogo:
