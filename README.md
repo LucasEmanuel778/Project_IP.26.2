@@ -51,8 +51,8 @@ A 2D game inspired by Sabrina Carpenter, featuring character movement and 3 uniq
 
 
 ## Controles:
-Pressione a tecla 'A' para que a Sabrina Carpenter ande para esquerda;<br>
-Pressione a tecla 'D' para que a Sabrina Carpenter ande para direita;<br>
+- 'A': Andar para esquerda.
+- 'D': Andar para direita.
 ...
 
 
@@ -61,29 +61,34 @@ A definição dos principais elementos do jogo, como tema, lógica, regras, pers
 
 Detalhes técnicos:
 
-* **Lucas Emanuel Araújo Arruda:** Classe Player (movimentação 2D, limites da tela, animações de direção/estado);<br>
+* **Lucas Emanuel Araújo Arruda:**<br>
+Classe Player (movimentação 2D, limites da tela, animações de direção/estado);<br>
 Sistema de colisão e controle de inputs (teclado/mouse);<br>
 Classe Inimigo (movimentação, comportamento e colisões).
 
-* **Brian Miguel da Silva Santos:** Telas de Menu Inicial, Instruções, Pausa e Fim de Jogo (botões interativos);<br>
+* **Brian Miguel da Silva Santos:**<br>
+Telas de Menu Inicial, Instruções, Pausa e Fim de Jogo (botões interativos);<br>
 Renderização do mapa/cenário 2D, plano de fundo e eventuais obstáculos do ambiente.
 
-* **Mateus Soares Mendes:** Estrutura do repositório GitHub (main, branches e .gitignore);<br>
+* **Mateus Soares Mendes:**<br>
+Estrutura do repositório GitHub (main, branches e .gitignore);<br>
 Loop principal do jogo (Game), máquina de estados (Menu, Jogando, Game Over) e controle de FPS;<br>
 Revisão de Pull Requests (PRs) e integração das classes;<br>
 Gestão do GitHub e organização das pastas;<br>
 Construção do ReadMe.
 
-* **Lucas Kauã Gomes:** Classe ScoreManager / Inventario para registrar a quantidade coletada de cada um dos 3 tipos de objetos;<br>
+* **Lucas Kauã Gomes:**<br>
+Classe ScoreManager / Inventario para registrar a quantidade coletada de cada um dos 3 tipos de objetos;<br>
 Exibição em tempo real na tela (HUD com contadores individuais e ícones);<br>
 Salvamento de recordes (High Score e Best Time).
 
-* **Vitor Gabriel Jose de Oliveira Belo:** Classe Inimigo (movimentação, comportamento e colisões);<br>
+* **Vitor Gabriel Jose de Oliveira Belo:**<br>
+Classe Inimigo (movimentação, comportamento e colisões);<br>
 Classe AudioManager (música de fundo e efeitos sonoros ao coletar cada tipo de item);<br>
 Feedback visual de coleta (partículas, textos flutuantes de +1, transições);<br>
-Testes de bugs (colisões falhando, travamentos, edge cases).
 
-* **João Pedro Cabral Bezerra Cavalcanti:** Classe base abstrata/pai Coletavel (herança e polimorfismo);<br>
+* **João Pedro Cabral Bezerra Cavalcanti:**<br>
+Classe base abstrata/pai Coletavel (herança e polimorfismo);<br>
 Implementação de 3 subclasses distintas de objetos coletáveis (com comportamentos, pontuações ou efeitos diferentes);<br>
 Lógica de spawn aleatório dos coletáveis.
 
