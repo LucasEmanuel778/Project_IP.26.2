@@ -2,7 +2,7 @@ import sys
 import pygame
 from constants import (
     LARGURA, ALTURA, FPS, TITULO,
-    PRETO, BRANCO,
+    PRETO, BRANCO, CINZA, 
     ESTADO_MENU, ESTADO_JOGANDO, ESTADO_PAUSADO, ESTADO_GAME_OVER
 )
 from src.entities.player import Player
@@ -24,6 +24,10 @@ class Game:
     def inicializar_objetos(self):
         """Instancia ou reseta os objetos da partida."""
         self.player = Player(LARGURA // 2, ALTURA // 2)
+        self.plataformas = [ 
+            pygame.Rect(250, 430, 300, 30), 
+            pygame.Rect(90, 515, 140, 30)
+        ]
          # self.score_manager = ScoreManager()
          # self.coletaveis = []
         pass
@@ -49,7 +53,7 @@ class Game:
     def atualizar(self, dt):
         if self.estado == ESTADO_JOGANDO:
             teclas = pygame.key.get_pressed()
-            self.player.update(teclas, dt)
+            self.player.update(teclas, dt, self.plataformas)
             pass
 
     def desenhar(self):
@@ -58,6 +62,9 @@ class Game:
         if self.estado == ESTADO_JOGANDO:
             self.player.draw(self.tela)
             # self.score_manager.draw(self.tela)
+            for plat in self.plataformas:
+                pygame.draw.rect(self.tela, CINZA, plat)
+        
             pass
         elif self.estado == ESTADO_PAUSADO:
             texto = self.fonte_debug.render("JOGO PAUSADO (Pressione P para voltar)", True, BRANCO)
