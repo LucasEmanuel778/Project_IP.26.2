@@ -41,7 +41,8 @@ A 2D game inspired by Sabrina Carpenter, featuring character movement and 3 uniq
 - YouTube:
 - GitHub: Usado para a criação de um repositório no qual todos os membros da equipe tinham acesso para atualizar o código.
 - (programa pra criar artes):
-- ...
+- Git
+- Linguagem: Python 3.13
 
 
 ## Regras do Jogo:
